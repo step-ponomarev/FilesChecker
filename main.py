@@ -1,9 +1,9 @@
-import os, sys
+import os
 
 direct = os.getcwd() + '/'
 
 def bust_script(direct):
-  
+
   if (os.listdir(direct)):
     for obj in os.listdir(direct):
       strings = int(0)
